@@ -78,5 +78,35 @@ int main(){
     cout<<"implicit casting = "<<m<<endl;
 
     cout<<"\n ------ EXERCISE ------"<<endl;
+
+    int a, b;
+    cout<<"Enter the first number (a): ";
+    cin>>a;
+    cout<<"Enter the second number (b): ";
+    cin>>b;
+
+    cout<<"\nArithmetic Operations: "<<endl;
+
+    cout<<"\na + b = "<<a+b;
+    cout<<"\na - b = "<<a-b;
+    cout<<"\na * b = "<<a*b;
+    cout<<"\na / b = "<<a/b;
+    cout<<"\na % b = "<<a%b;
+
+    cout<<"\nAfter assignment operations: "<<endl;
+    a += 10;
+    b -= 5;
+    cout<<"\na = "<<a;
+    cout<<"\nb = "<<b;
+
+    cout<<"\nBoolean Operations: "<<endl;
+    cout<<"\nIs a greater than b? "<< (a > b ? "true" : "false");
+    cout<<"\nIs a equal to b? "<< (a == b ? "true" : "false");
+    cout<<"\nIs a not equal to b? "<< (a != b ? "true" : "false");
+    cout<<"\nAre both a and b positive? "<< (a > 0 && b > 0 ? "true" : "false");
+    cout<<"\nIs either a or b negative? "<< (a < 0 || b < 0 ? "true" : "false");
+    cout<<"\nIs a not greater than b? "<< (!(a > b) ? "true" : "false")<<endl;
+    
+
     return 0;
 }
