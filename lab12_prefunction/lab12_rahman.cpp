@@ -35,14 +35,13 @@ int main(){
     printhyp(s1, s2, h);
     
     cout<<"\n ------ EXERCISE ------"<<endl;
-    // int x1 = //call 1st function
-    // int y1 = //call 1st finction
-    // int x2 = //call 1st finction
-    // int y2 = //call 1st finction
+    int x1 = 1;
+    int y1 = 4;
+    int x2 = 7;
+    int y2 = 3;
 
-    // float d = // call 2nd function
-
-    // // call 3ed function
+    float d = calcDistance(x1, y1, x2, y2);
+    printDistance(x1, y1, x2, y2, d);
 
 
 

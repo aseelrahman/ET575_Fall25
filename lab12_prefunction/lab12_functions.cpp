@@ -28,7 +28,20 @@ void printhyp(float s1, float s2, float h){
 
 //Exercise
 //function to collect a number greater than 0
-
+int getNumber(){
+    int num;
+    do{
+        cout << "Enter a number greater than 0: ";
+        cin >> num;
+    } while(num <= 0);
+    return num;
+}
 //function to calculate the distance of four point
-
+float calcDistance(int x1, int y1, int x2, int y2){
+    return sqrt((x2 - x1)*(x2 - x1) + (y2 - y1)*(y2 - y1));
+}
 //function to print the result
+void printDistance(int x1, int y1, int x2, int y2, float distance){
+    cout << "Distance between point (" << x1 << " , " << y1 << ") and point ("
+         << x2 << " , " << y2 << ") is " << distance << endl;
+}
