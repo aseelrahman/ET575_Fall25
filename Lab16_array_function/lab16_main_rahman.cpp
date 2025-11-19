@@ -34,7 +34,14 @@ int main(){
 
     cout<<"\n ----- EXERCISE -----"<<endl;
     // initialize variables and array
-    int arr_number[] ={6, -10, , 9, 12, -3, -8, 5, 7, 4, 0};
+    int arr_number[] ={6, -10, 9, 12, -3, -8, 5, 7, 4, 0};
+    int sizearray = 10;
+
+    int evenSum = sumeven(arr_number, sizearray);
+    int negCount = countnegative(arr_number, sizearray);
+
+    cout<<"Sum of even numbers: "<<evenSum<<endl;
+    cout<<"Count of negative numbers: "<<negCount<<endl;
 
     return 0;
 }
